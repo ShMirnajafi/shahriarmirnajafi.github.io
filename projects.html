@@ -2,43 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Projects | Shahriar Mirnajafi</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html" class="active">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section class="projects">
-      <h1>Projects</h1>
-      <div class="project-list">
-        <article class="project-item">
-          <h2>Project 1</h2>
-          <p>Description of project 1...</p>
-        </article>
-        <article class="project-item">
-          <h2>Project 2</h2>
-          <p>Description of project 2...</p>
-        </article>
-        <article class="project-item">
-          <h2>Project 3</h2>
-          <p>Description of project 3...</p>
-        </article>
-      </div>
-    </section>
+    <div class="container">
+      <section class="projects">
+        <h1>Projects</h1>
+        <p>Below are three projects that exemplify a range of programming skills from low-level system programming to modern web development:</p>
+        <div class="project-list">
+          <article class="project-item">
+            <h2>Project 1: Mester Jack Game (Terminal-based in C)</h2>
+            <p>
+              Mester Jack is a classic terminal-based game developed in the C programming language. This project challenges users to engage with text-based gameplay, where decisions are made via keyboard input. The game’s design emphasizes memory management, pointer manipulation, and efficient use of data structures. I added dynamic difficulty levels and complex error handling routines to ensure that the game not only entertains players but also serves as a detailed exercise in low-level programming. This project provided an opportunity to deepen my understanding of system-level concepts and improve my skills in classical C programming.
+            </p>
+          </article>
+          <article class="project-item">
+            <h2>Project 2: Discord-like Chat Application with Java and Socket Programming</h2>
+            <p>
+              This project is a basic implementation of a chat system inspired by Discord, developed using Java and socket programming. It features a client/server architecture where multiple clients can communicate in real time. The application demonstrates critical techniques such as asynchronous message broadcasting, multi-threaded client management, and connection handling via sockets. I experimented with Java’s non-blocking I/O routines and enhanced the system with basic error logging and connection authentication. This project not only solidified my understanding of network communications but also provided insight into designing scalable and robust real-time applications.
+            </p>
+          </article>
+          <article class="project-item">
+            <h2>Project 3: Fully Responsive Dashboard with Next.js and Material-UI (MUI)</h2>
+            <p>
+              This project features a fully responsive dashboard built using Next.js and Material-UI (MUI). The design leverages Next.js's server-side rendering capabilities, which significantly improves load times and enhances SEO. The dashboard is designed to adapt seamlessly to any screen size, ensuring an optimal user experience on mobile, tablet, and desktop devices. Advanced features include data visualization components, dynamic theme switching, and intuitive navigation. By integrating modern UI frameworks and state-of-the-art front-end technologies, this project showcases how cutting-edge web development can blend functionality with aesthetic appeal. It also reflects my commitment to creating interactive, maintainable, and scalable web solutions.
+            </p>
+          </article>
+        </div>
+        <p>
+          These projects illustrate a progressive learning journey—from mastering low-level programming in C, exploring the intricacies of real-time communication in Java, to embracing modern web development with React-based frameworks. Each project presented unique opportunities to experiment with different aspects of computer science and engineering, and together they form a comprehensive portfolio that demonstrates both technical depth and creative problem-solving.
+        </p>
+      </section>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; 2025 Shahriar Mirnajafi</p>
+    <div class="container">
+      <p>&copy; 2025 Shahriar Mirnajafi</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
