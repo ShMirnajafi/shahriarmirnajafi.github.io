@@ -135,3 +135,18 @@ footer {
   margin-bottom: 20px;
   color: #555;
 }
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #007acc;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 100;
+  text-decoration: none;
+  transition: top 0.3s ease;
+}
+.skip-link:focus {
+  top: 0;
+}
